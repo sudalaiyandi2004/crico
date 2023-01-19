@@ -1,0 +1,95 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#bat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("lk.webp");
+    width: 100%;
+    height: 100%;
+}
+#photos{
+    margin-top: 70px;
+}
+#photo1,#photo2{
+    width: 200px;
+    height: 200px;
+    
+    padding-left: 50px;
+}
+#option{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+#one button{
+    background: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+#one img{
+    width: 100px;
+    height: 100px;
+}
+#score{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    border: 10px solid brown;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#total h1{
+    text-align: center;
+}
+#batman{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px solid brown;
+
+}
+#bt1,#bt2,#bt3{
+    position: absolute;
+    right: 20%;
+    color: green;
+}
+#bts,#btss{
+    position: absolute;
+    right: 15%;
+    color: green;
+}
+#sc,#to{
+    color: blue;
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+}
+#batsman1,#batsman2,#batsman3{
+    color: red;
+}
+#ty{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+#ty img{
+    width: 250px;
+    height:250px;
+}
+#one img:hover{
+    width: 110px;
+    height: 110px;
+}

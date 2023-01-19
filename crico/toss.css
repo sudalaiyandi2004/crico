@@ -1,0 +1,101 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#toss{
+    background-image: url("blur.jpg");
+    width: 100%;
+    height: 100%;
+}
+#tos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#sd{
+    margin-top: 50px;
+}
+#sd img{
+    padding-left: 80px;
+}
+#sd button{
+    background: none;
+    border: none;
+}
+#tos h1{
+    align-items: center;
+    font-size: 10vh;
+    font-weight: bolder;
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+    color: greenyellow;
+
+}
+#dollar{
+    width: 250px;
+    height: 250px;
+}
+#dollar:hover{
+    width: 260px;
+    height: 260px;
+}
+#star:hover{
+    width: 285px;
+    height: 285px;
+}
+#star{
+    width: 275px;
+    height: 275px;   
+}
+#para{
+    color: brown;
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+
+}
+
+#bat,#bowl{
+
+    display: none;;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+    background-color:greenyellow;
+    border: 2px solid brown;
+    border-radius: 50px;
+    font-family: "Audiowide", sans-serif;
+}
+#bowl:hover{
+
+    display: none;;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold;
+    background-color:brown;
+    border: 2px solid greenyellow;
+    border-radius: 50px;
+    font-family: "Audiowide", sans-serif;
+}
+#bat:hover{
+
+    display: none;;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold;
+    background-color:brown;
+    border: 2px solid greenyellow;
+    border-radius: 50px;
+    font-family: "Audiowide", sans-serif;
+}

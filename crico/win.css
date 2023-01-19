@@ -1,0 +1,48 @@
+.{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#haed{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background:linear-gradient(to right,green,greenyellow);
+    width: 100%;
+    height:100%;
+}
+#haed h1{
+    font-size: 12vh;
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+    color: brown;
+}
+#ht{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-around;
+}
+#ht img{
+    width: 100px;
+    height:100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    animation: move 5s infinite;
+    position: relative;
+}
+#htt{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+#httt{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+@keyframes move {
+    0%{top:0px;}
+    100%{top:600px;}  
+}
